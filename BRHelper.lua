@@ -482,7 +482,7 @@ function BR.Announcement(_, title, _)
 		currentRound = 5
 		currentWave = 0
 	else
-		local round = string.match(title, '^.+%s(%d)$')
+		local round = string.match(title, '^.+(%d)$')
 		if round then
 			currentRound = tonumber(round)
 			currentWave = 0
