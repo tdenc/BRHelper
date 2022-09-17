@@ -1,5 +1,5 @@
 ## Title: Blackrose Prison Helper JP Version
-## Version: 1.0.6.5
+## Version: 1.0.6.6
 ## APIVersion: 101035
 ## Author: Original: |cFFFF00andy.s|r, JP Patch: tdenc
 ## AddOnVersion: 106
