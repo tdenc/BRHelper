@@ -1,5 +1,5 @@
 ## Title: BRHelper
-## Version: 1.0.6.2
+## Version: 1.0.6.3
 ## APIVersion: 100030
 ## Author: Original: |cFFFF00andy.s|r, JP Patch: tdenc
 ## AddOnVersion: 106

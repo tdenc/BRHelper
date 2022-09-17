@@ -417,7 +417,7 @@ local function NotifyNewWave()
 			msg[all] = "|cFFFF00アーチャー [北]|r"
 			arr[all] = {0.67619681358337, 0.22639627754688}
 		end
-		if r == 3 and w == 2 then msg[all] = "|cFF0000はじ・モタ|r + 蜘蛛" end
+		if r == 3 and w == 2 then msg[all] = "|cFF0000ハジ・モタ|r + 蜘蛛" end
 		if r == 3 and w == 3 then msg[all] = "|cFF0000ボス + 2x クロコダイル!|r" end
 
 		if r == 4 and w == 2 then msg[all] = "|cFF0000ガーゴイル + 2x 注入者!|r" end
@@ -547,7 +547,7 @@ function BR.HeavyAttack(eventCode, result, isError, abilityName, abilityGraphic,
 		if string.find(sourceName, 'ガーゴイル') then color = "FF0000"
 		elseif string.find(sourceName, 'ミナラ') then color = "FFFF00"
 		elseif string.find(sourceName, 'コロッサス') then color = "00FFFF"
-		elseif string.find(sourceName, '囚人') then color = "FFFF00"
+		elseif string.find(sourceName, '捕虜') then color = "FFFF00"
 		elseif string.find(sourceName, 'ドラキー') then color = "FFFF00" end
 
 		table.insert(heavyAttackList, {GetGameTimeMilliseconds() + hitValue, color})
